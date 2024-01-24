@@ -2,6 +2,8 @@
   "name": "root",
   "private": true,
   "devDependencies": {
+    "@cryptoalgebra/integral-core": "0.2.0",
+    "@cryptoalgebra/integral-periphery": "0.2.0",
     "@nomicfoundation/hardhat-toolbox": "^3.0.0",
     "@typechain/ethers-v6": "^0.4.0",
     "@types/chai": "^4.3.5",

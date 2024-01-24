@@ -3,7 +3,7 @@ import 'hardhat-output-validator';
 import 'hardhat-contract-sizer';
 import 'solidity-docgen';
 import { SolcUserConfig } from 'hardhat/types';
-import baseConfig from '../../hardhat.base.config';
+import baseConfig from '../../../hardhat.base.config';
 
 const HIGHEST_OPTIMIZER_COMPILER_SETTINGS: SolcUserConfig = {
   version: '0.8.20',
