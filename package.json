@@ -43,7 +43,7 @@
     "ci-install": "npm ci && lerna bootstrap",
     "deploy": "node scripts/deployAll.js",
     "verify": "node scripts/verifyAll.js",
-    "docgen": "cd src/core && hardhat docgen && cd ../periphery && hardhat docgen && cd ../plugin && hardhat docgen && cd ../farming && hardhat docgen && node ../../docs/postprocess.js"
+    "docgen": "cd src/core && hardhat docgen && cd ../periphery && hardhat docgen && cd ../plugin/base && hardhat docgen && cd ../farming && hardhat docgen && node ../../docs/postprocess.js"
   },
   "engines": {
     "npm": ">=8.0.0",
