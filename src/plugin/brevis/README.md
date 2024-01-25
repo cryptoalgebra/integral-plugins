@@ -1,11 +1,6 @@
-# Algebra Plugins
+# Brevis Plugin
 
-This directory contains the base Algebra protocol plugin, which combines the following functionality:
-- TWAP oracle
-- volatility oracle
-- dynamic fee manager
-- farmings adapter
-
+Discount provided for owning NFTs. A plugin that uses crosschain technology and provides the user with a reduced fee for swaps if he owns the required NFT on the Ethereum network.
 
 ## License
 
